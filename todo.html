@@ -9,13 +9,17 @@
   <body>
     // tags describe what kind of visual elements we have
     <div>Nickson Nickson</div>
-    <button>Press Me</button>
+    <button>
+      Press Me
+    </button>
+    <button onclick="console.log('hey nick')">Play</button>
+
+
+    <input type="text">Yes</input>
 
     // variables are like containers
     <script>
-      let todo1 = "Ride bike";
-      let todo2 = "Cook food";
-      let todo3 = "Check meeting updates";
+     
 
       // this code creates a div element add assigns it to the element variable
       // the document here is the body
@@ -27,6 +31,7 @@
       // now this js commands appends the element to the body
       document.body.appendChild(element);
 
+      let todos = ["Ride bike", "Cook food", "Check meeting updates"];
 
       function addTodo(TodoTitle) {
         // this code creates a div element add assigns it to the element variable
@@ -41,20 +46,11 @@
       }
 
 
-      addTodo(Todo1)
-      addTodo(Todo2)
-      addTodo(Todo3)
 
 
-
-
-      element = document.createElement("div");
-      element.innerText = todo2;
-      document.body.appendChild(element);
-
-      element = document.createElement("div");
-      element.innerText = todo3;
-      document.body.appendChild(element);
+      addTodo(Todo1);
+      addTodo(Todo2);
+      addTodo(Todo3);
     </script>
   </body>
 </html>
