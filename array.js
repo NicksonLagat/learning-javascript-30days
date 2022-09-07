@@ -16,3 +16,24 @@ function arraySum(param) {
 }
 
 arraySum(numbers);
+
+
+
+const numbers1 = [0, 3.14, 9.81, 37, 98.6, 100]
+
+console.log(numbers1.length)
+
+
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+]
+
+console.log(webTechs.length)
+console.log(webTechs.push('Python'))
+console.log(webTechs)
